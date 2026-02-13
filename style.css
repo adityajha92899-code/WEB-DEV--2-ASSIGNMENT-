@@ -23,26 +23,3 @@ h1 {
   border-radius: 10px;
 }
 
-.dom-section {
-  grid-column: span 2;
-}
-
-input, select, textarea, button {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
-}
-
-button {
-  background: #4ca1af;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.card {
-  background: #f2f2f2;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-left: 4px solid #4ca1af;
-}
