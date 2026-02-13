@@ -55,7 +55,4 @@ sampleBtn.addEventListener("click", function() {
   container.appendChild(card);
 });
 
-// DOM TEXT CHANGE
-changeTextBtn.addEventListener("click", function() {
-  demoText.textContent = "Text Changed Using DOM!";
-});
+
