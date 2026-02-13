@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Event Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Smart Event Dashboard</h1>
+
+  <div class="container">
+
+    <!-- BLOCK 1: FORM -->
+    <div class="form-section">
+      <h2>Add New Event</h2>
+
+      <form id="eventForm">
+        <input type="text" id="title" placeholder="Event Title" required>
+        <input type="date" id="date" required>
+
+        <select id="category">
+          <option value="Conference">Conference</option>
+          <option value="Workshop">Workshop</option>
+          <option value="Meetup">Meetup</option>
+        </select>
+
+        <textarea id="description" placeholder="Description"></textarea>
+
+        <button type="submit">Add Event</button>
+      </form>
+    </div>
+
+    <!-- BLOCK 2: EVENTS -->
+    <div class="event-section">
+      <h2>My Events</h2>
+      <button id="clearBtn">Clear All Events</button>
+      <button id="sampleBtn">Add Sample Event</button>
+
+      <div id="eventContainer">
+        <p>No events yet. Add your first event!</p>
+      </div>
+    </div>
+
+    <!-- BLOCK 3: DOM DEMO -->
+    <div class="dom-section">
+      <h2>DOM Manipulation Demo</h2>
+      <p id="demoText">Original Text</p>
+      <button id="changeTextBtn">Change Text</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

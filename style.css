@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #4ca1af, #2c3e50);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-section,
+.event-section,
+.dom-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dom-section {
+  grid-column: span 2;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  background: #4ca1af;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  background: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid #4ca1af;
+}
